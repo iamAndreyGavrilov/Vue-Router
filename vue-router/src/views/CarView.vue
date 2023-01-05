@@ -1,5 +1,5 @@
 <script setup>
-import {useRoute} from "vue-router";
+import {useRoute, RouterView} from "vue-router";
 import cars from "../data/cars.json";
 
 const route = useRoute();
@@ -15,8 +15,9 @@ const {name, price, year} = car;
 <template>
   <div>
     <h1>{{ name }}</h1>
-    <p>{{ price }}</p>
     <p>{{ year }}</p>
+    <p>{{ price }}</p>
+    <RouterView/>
   </div>
 </template>
 

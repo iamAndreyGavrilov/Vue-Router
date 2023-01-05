@@ -3,30 +3,50 @@
     "id": 1,
     "name": "Chevy",
     "price": 15000,
-    "year": 2015
+    "year": 2015,
+    "contact": {
+      "dealer": "John",
+      "number": "123-456-789-0"
+    }
   },
   {
     "id": 2,
     "name": "Ford",
     "price": 20000,
-    "year": 2016
+    "year": 2016,
+    "contact": {
+      "dealer": "qwe",
+      "number": "123-456-789-0"
+    }
   },
   {
     "id": 3,
     "name": "Toyota",
     "price": 25000,
-    "year": 2017
+    "year": 2017,
+    "contact": {
+      "dealer": "sadf",
+      "number": "123-456-789-0"
+    }
   },
   {
     "id": 4,
     "name": "Honda",
     "price": 30000,
-    "year": 2018
+    "year": 2018,
+    "contact": {
+      "dealer": "xzv",
+      "number": "123-456-789-0"
+    }
   },
   {
     "id": 5,
     "name": "BMW",
     "price": 35000,
-    "year": 2019
+    "year": 2019,
+    "contact": {
+      "dealer": "gjghk",
+      "number": "123-456-789-0"
+    }
   }
 ]
