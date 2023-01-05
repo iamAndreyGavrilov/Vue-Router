@@ -24,6 +24,12 @@ const router = createRouter({
                     component: () => import('../views/ContactView.vue')
                 }
             ]
+        },
+        {
+            path: '/:catchall(.*)*',
+            component: () => import('../views/404View.vue'),
+            name: 'Not Found'
+
         }
     ]
 })
